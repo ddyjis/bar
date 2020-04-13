@@ -6,18 +6,20 @@ export const command = "USER=ddyjis /usr/local/bin/yabai -m query --spaces --dis
 export const refreshFrequency = false;
 
 const style = {
+    backgroundColor: styles.backgroundColor,
     color: styles.color,
     display: "inline-block",
     fontFamily: styles.fontFamily,
     fontSize: styles.fontSize,
     lineHeight: styles.lineHeight,
+    opacity: styles.opacity,
     zIndex: styles.zIndex + 1,
 
     padding: "0 2ch",
 
     position: "fixed",
     top: constant.gap,
-    left: constant.gap,
+    left: 0,
 }
 
 const space = ({index, focused}) => {

@@ -6,11 +6,13 @@ export const command = "USER=ddyjis /usr/local/bin/yabai -m query --windows";
 export const refreshFrequency = false;
 
 const style = {
+    backgroundColor: styles.backgroundColor,
     color: styles.color,
     display: "inline",
     fontFamily: styles.fontFamily,
     fontSize: styles.fontSize,
     lineHeight: styles.lineHeight,
+    opacity: styles.opacity,
     zIndex: styles.zIndex + 1,
 
     padding: "0 2ch",

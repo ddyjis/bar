@@ -26,8 +26,7 @@ const style = {
 
   position: "fixed",
   top: constant.gap,
-  left: constant.gap,
-  right: constant.gap,
+  right: 0,
 
   borderTopLeftRadius: constant.borderRadius,
   borderTopRightRadius: constant.borderRadius,

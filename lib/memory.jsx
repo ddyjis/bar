@@ -10,7 +10,7 @@ export const Memory = ({ children }) => {
   return (
     <span style={style}>
       <span style={ children.free < 50 ? { color: constant.colors.red } : null }>
-        RAM <span>{100 - children.free}%</span>
+        記憶體 <span>{100 - children.free}%</span>
       </span>
     </span>
   )

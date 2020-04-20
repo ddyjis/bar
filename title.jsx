@@ -3,7 +3,7 @@ import { parse } from "./lib/parse.jsx";
 import { styles, constant } from "./lib/styles.jsx";
 
 export const command = "USER=ddyjis /usr/local/bin/yabai -m query --windows";
-export const refreshFrequency = false;
+export const refreshFrequency = 500;
 
 const style = {
     backgroundColor: styles.backgroundColor,

@@ -3,7 +3,7 @@ import { Cpu } from "./lib/cpu.jsx";
 import { DateTime } from "./lib/datetime.jsx";
 import { Message } from "./lib/message.jsx";
 import { Memory } from "./lib/memory.jsx";
-// import { Network } from "./lib/network.jsx";
+import { Network } from "./lib/network.jsx";
 import { parse } from "./lib/parse.jsx";
 import { styles, constant } from "./lib/styles.jsx";
 
@@ -49,6 +49,7 @@ export const render = ({ output }) => {
     <Battery>{data.battery}</Battery>
     <Memory>{data.memory}</Memory>
     <Cpu>{data.cpu}</Cpu>
+    <Network>{data.wifi}</Network>
     {/* <Network>{data.wifi}</Network> */}
   </div>
 };

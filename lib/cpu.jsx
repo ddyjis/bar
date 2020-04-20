@@ -10,8 +10,8 @@ export const Cpu = ({ children }) => {
   return (
     <span style={style}>
       <span style={ children.usage > 70 || children.loadAverage > 3 ? { color: constant.colors.red } : null }>
-        CPU <span>{children.usage}% </span>
-        Load <span>{children.loadAverage}</span>
+        處理器 <span>{children.usage}% </span>
+        負載 <span>{children.loadAverage}</span>
       </span>
     </span>
   )
